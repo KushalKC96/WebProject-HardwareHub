@@ -6,7 +6,7 @@ const prisma = new PrismaClient({
 
 prisma.$connect()
   .then(() => {
-    console.log('✓ Prisma connected to MySQL database')
+    console.log('✓ Prisma connected to the database')
   })
   .catch((err) => {
     console.error('✗ Prisma connection error:', err)
